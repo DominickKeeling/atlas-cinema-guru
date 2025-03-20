@@ -1,1 +1,23 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
 @import "tailwindcss";
+
+
+@theme {
+  --font-display: "Poppins", "sans-serif";
+
+  --color-guru-teal: #54f4d0;
+  --color-guru-dark-teal: #1dd2af;
+  --color-guru-navy: #00003c;
+  --color-guru-light-navy: #080464;
+}
+
+/* In globals.css */
+.expanded {
+  width: 10rem;
+  height: 30rem; /* Example: 16rem */
+}
+.collapsed {
+  width: 4rem;  /* Example: 5rem */
+}
+
